@@ -60,4 +60,41 @@ p {
     justify-content: center;
     align-items: center;
     background-color: gray;
+    width: 350px;
+    height: 175px;
+    flex: none;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.rando {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    text-align: center;
 }
