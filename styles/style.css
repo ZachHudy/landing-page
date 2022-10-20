@@ -48,7 +48,7 @@ p {
 }
 
 .navbar-content > * {
-    width: 50%;
+    width: 350px;
 }
 
 .hero-text {
@@ -59,10 +59,14 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
     width: 350px;
-    height: 175px;
+    height: 200px;
     flex: none;
+}
+
+.image-placeholder > img {
+    width: 350px;
+    height: 200px;
 }
 
 .subtitle {
@@ -81,6 +85,7 @@ p {
 .cards {
     display: flex;
     gap: 32px;
+    margin-bottom: 75px;
 }
 
 .card {
@@ -93,8 +98,34 @@ p {
 .card img {
     width: 100px;
     height: 100px;
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+
 }
 
 .info {
     text-align: center;
 }
+
+.inspiration {
+    display: flex;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 50px;
+    flex: none;
+    align-items: center;
+    width: 496px;
+}
+
+.thor {
+    align-self: flex-end;
+}
+
