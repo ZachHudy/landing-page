@@ -126,7 +126,20 @@ p {
     padding: 50px;
     flex: none;
     align-items: center;
-    width: 496px;
+    width: 800px;
+}
+
+.quote > p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
 }
 
 .thor {
